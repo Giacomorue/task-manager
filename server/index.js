@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import prisma from "./util/prisma.js";
 import taskRoute from "./routes/task.route.js";
+
 dotenv.config();
 
 const app = express();
