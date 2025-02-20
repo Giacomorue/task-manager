@@ -64,13 +64,15 @@ npm run dev
 
 ### Backend (.env)
 ```env
-DATABASE_URL="mongodb://..."
 PORT=5000
+NODE_ENV=development o production
+FRONTEND_URL="http://localhost:3000" o "https://..."
+DATABASE_URL="mongodb+srv://????????????/task"
 ```
 
 ### Frontend (.env)
 ```env
-NEXT_PUBLIC_API_URL="http://localhost:5000"
+NEXT_PUBLIC_API_URL="http://localhost:5000" o "https://..."
 ```
 
 ## 📝 Funzionalità
